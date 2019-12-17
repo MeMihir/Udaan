@@ -1,0 +1,115 @@
+body {
+  background: #222;
+}
+
+header {
+  /* height: 100vh;
+  width: 100vw; */
+  overflow: hidden;
+}
+
+/* Navbar */
+.menu-wrap {
+  position: relative !important;
+}
+
+header nav {
+  /* flex-direction: column;
+  text-align: center; */
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav ul {
+  /* order: 2; */
+  margin: 0 auto;
+}
+
+header nav img {
+  /* order: 1; */
+  margin: 1rem 1rem 0;
+  /* align-self: center; */
+}
+
+header nav ul li {
+  padding: 0;
+}
+
+/* Showcase */
+#design-bg {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+#showcase {
+  flex-direction: column;
+  /* margin-top: 4rem; */
+}
+
+#showcase #udaan-boy {
+  /* order: 2;
+  width: 45vw; */
+  display: none;
+}
+
+#showcase .showcase-content {
+  margin-right: 0;
+  padding: 0;
+  /* order: 1; */
+}
+
+#showcase .showcase-content .heading {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 2.5rem 0 1rem;
+}
+
+#showcase .showcase-content .para {
+  font-size: 1.2rem;
+  margin: 1rem;
+  /* margin-bottom: 3rem; */
+  line-height: 1.25rem;
+}
+
+#showcase .showcase-content .para {
+  font-weight: lighter;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+#showcase .showcase-content .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase .showcase-content .buttons button {
+  font-size: 1.1rem;
+  width: 60vw;
+  font-weight: bold;
+  /* padding: 0.75rem; */
+  margin: 1rem 0 0;
+}
+
+#showcase .showcase-content .buttons #brochure {
+  width: 35%;
+  margin: 1.5rem 0 1rem;
+}
+
+/* Footer */
+footer {
+  padding-top: 1rem;
+  height: 7rem;
+}
+
+footer .social-media {
+  width: 12rem;
+}
+
+footer .tos {
+  margin: 1rem auto;
+  width: 100%;
+}
